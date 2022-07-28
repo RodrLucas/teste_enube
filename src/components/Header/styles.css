@@ -1,0 +1,19 @@
+.container-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.image-logo {
+    width: 8rem;
+}
+
+.title {
+    color: #0E314C;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-style: italic;
+}   

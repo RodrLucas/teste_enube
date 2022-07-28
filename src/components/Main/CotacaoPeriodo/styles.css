@@ -1,0 +1,61 @@
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
+form {
+    padding: 1rem;
+}
+
+.container-inputs {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.container-calendar {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    color: #0E314C;
+    font-weight: bold;
+}
+
+.calendar {
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    padding: .5rem 1rem;
+}
+
+.container-calendar-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.button {
+    width: 5rem;
+    height: 2rem;
+    color: #0E314C;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
